@@ -1,0 +1,202 @@
+.register_page{
+    /* padding-top: 6vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    /* background-color: #f9feff; */
+}
+.register_page h1{
+     font-family: roobert;
+     font-size: 14vmax;
+     color: #dedede;
+     margin-top: -4vh;
+}
+.register{
+    width: 70%;
+    height: 84%;
+    /* background-color: teal; */
+    background-color: #e4e4e4;
+    border-radius: 2vmax;
+    /* position: absolute; */
+    /* top:50%; */
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+     /* left: 50%; */
+     /* transform: translate(-50%,-50%); */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.left_l{
+    width: 50%;
+    height: 100%;
+    background-color: #f2d069;
+    background-color: #1e779d;
+    /* background-color: #ebf9ff; */
+    border-radius: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10vh 0;
+    padding-left: 4vmax;
+    gap: 2vmax;
+}
+
+.left_l h3{
+    font-family: roobert;
+    color: #111;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 3vmax;
+}
+
+.left_l .lbtm{
+    /* background-color: teal; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 32vh;
+    width: 100%;
+}
+.left_l .lbtm img{
+    height: 10vh;
+}
+.crosss{
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 2.5vmax;
+    font-weight: 600;
+}
+.left_l p{
+    width: 60%;
+    line-height: 2;
+    font-family: roobert;
+    color: #111;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.right_r{
+    width: 50%;
+    height: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* gap: 1vmax; */
+    padding-top: 2.5vh;
+}
+.right_r h3{
+     font-family: roobert;
+     text-align: center;
+    font-size: 2.4vmax;  
+    margin-bottom: 5vh;   
+}
+.ggl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2d069;
+    background-color: #1e779d;
+    width: fit-content;
+    padding: .5vmax 1.4vmax;
+    gap: 1vmax;
+    border-radius: .4vmax;
+    margin-top: 1vmax;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+.ggl:hover{
+    background-color: #1c5b76;
+}
+
+.ggl h6{
+    font-family: roobert;
+    font-size: 1vmax;
+    font-weight: 500;
+    margin-top: .3vmax;
+    color: #fff;
+}
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3vmax;
+    margin-top: .5vh;
+    margin-bottom: -3vh;
+}
+.or p{
+    font-family: roobert;
+    letter-spacing: 1px;
+    font-size: 1.2vmax;
+    font-weight: 600;
+    margin-top: 1vmax;
+}
+.line{
+    width: 2vw;
+    height: 2px;
+    background-color: #111;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 1vmax;
+    margin-bottom: 4vh;
+}
+.options small{
+    font-family: roobert;
+    font-size: 1.2vmax;
+    font-weight: 600;
+    color: #444;
+    letter-spacing: 1px;
+}
+.se{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    gap: .6vmax;
+    border-radius: 3vmax;
+    width: 14vw;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    height: 6vh;
+    padding: initial !important;
+}
+.se h6{
+    font-family: roobert;
+    font-size: .9vmax;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    font-weight: 500;
+    padding: .5vmax 1.3vmax;
+    border-radius: 2vmax;
+    font-weight: 600;
+    margin: initial !important;
+}
+.se .h6{
+    /* background-color: #f2d069 !important; */
+    background-color: #1e779d;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    font-weight: 500;
+}
+.se .h6:hover{
+    background-color: #1c5b76;
+}
+
+
+.dvg{
+    display: flex;
+    gap: 1vmax;
+}
